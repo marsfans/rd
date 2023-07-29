@@ -2,10 +2,10 @@
 FROM node:lts-alpine3.18
 
 # 设置工作目录
-WORKDIR /app
+#WORKDIR /app
 
 # 将应用程序文件复制到容器中
-COPY . .
+#COPY . .
 
 # EXPOSE 3000
 
